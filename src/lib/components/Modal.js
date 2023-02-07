@@ -2,7 +2,7 @@ import React from 'react';
 import cross from './cross.svg';
 import '../src/modal.css';
 
-const App = (props) => {
+const Modal = (props) => {
     if (!props.show) {
         return null;
     }
@@ -21,4 +21,4 @@ const App = (props) => {
     );
 };
 
-export default App;
+export default Modal;
