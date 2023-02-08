@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 var _cross = _interopRequireDefault(require("./cross.svg"));
-require("../src/modal.css");
+require("./modal.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const App = props => {
+const Modal = props => {
   if (!props.show) {
     return null;
   }
@@ -29,5 +29,5 @@ const App = props => {
     alt: "cross"
   })))));
 };
-var _default = App;
+var _default = Modal;
 exports.default = _default;

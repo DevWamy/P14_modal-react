@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import cross from './cross.svg';
 import './modal.css';
 
@@ -19,6 +20,14 @@ const Modal = (props) => {
             </div>
         </div>
     );
+};
+
+Modal.propTypes = {
+    className: PropTypes.string,
+    onClose: PropTypes.func.isRequired,
+};
+Modal.defaultProps = {
+    show: false,
 };
 
 export default Modal;
