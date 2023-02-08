@@ -17,7 +17,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jawblia/npm-test.git"
+        "url": "https://github.com/DevWamy/P14_modal-react"
     },
     "dependencies": {
         "@babel/polyfill": "^7.12.1",
