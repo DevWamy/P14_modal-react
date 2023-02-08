@@ -1,6 +1,6 @@
 import React from 'react';
 import cross from './cross.svg';
-import '../src/modal.css';
+import './modal.css';
 
 const Modal = (props) => {
     if (!props.show) {
