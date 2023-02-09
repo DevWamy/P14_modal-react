@@ -1,6 +1,6 @@
 {
     "name": "modal-react-for-projects",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Simple component displaying a personalized message in a new window.",
     "author": "DevWamy",
     "privacy": false,

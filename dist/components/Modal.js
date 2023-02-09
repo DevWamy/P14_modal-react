@@ -5,6 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
+var _propTypes = _interopRequireDefault(require("prop-types"));
 var _cross = _interopRequireDefault(require("./cross.svg"));
 require("./modal.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -28,6 +29,13 @@ const Modal = props => {
     className: "close",
     alt: "cross"
   })))));
+};
+Modal.propTypes = {
+  className: _propTypes.default.string,
+  onClose: _propTypes.default.func.isRequired
+};
+Modal.defaultProps = {
+  show: false
 };
 var _default = Modal;
 exports.default = _default;
