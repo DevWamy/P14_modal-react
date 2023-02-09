@@ -18,8 +18,8 @@ const [show, setShow] = useState(false);
 
 return (
     <Modal title="My Modal" onClose={() => setShow(false)} show={show}>
-                <p className="text">Your message here</p>
-            </Modal>
+        <p className="text">Your message here</p>
+    </Modal>
   );
 };
 
