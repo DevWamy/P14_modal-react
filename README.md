@@ -29,4 +29,4 @@ export default App;
 
 ## Example
 
-![Render example](https://imgur.com/4xJfcEt)
+![Imgur](https://i.imgur.com/4xJfcEt.png)
